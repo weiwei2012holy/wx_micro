@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::any('/hr', function () {
     return view('hr');
 });
+Route::any('/hr/save', 'Common\HrController@save');
