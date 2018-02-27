@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,56 +14,96 @@
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        {{--<div class="swiper-slide main">--}}
-        {{--<div class="top-image-box">--}}
-        {{--<img src="{{URL::asset('img/bg-header.png')}}" class="bg-header animated pulse">--}}
-        {{--<img src="{{URL::asset('img/want-you.png')}}" class="want-you animated rotateInDownLeft">--}}
-        {{--<img src="{{URL::asset('img/join-us.png')}}" class="join-us animated rotateInUpRight">--}}
-        {{--<img src="{{URL::asset('img/index-girls.png')}}" alt="" class='index-girls animated fadeInUp'>--}}
-        {{--<img src="{{URL::asset('img/mk.png')}}" alt="" class='index-mk animated-3s flipInX'>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="swiper-slide">--}}
-        {{--<div class='has-border'>--}}
-        {{--<img src="{{URL::asset('img/top-girls.png')}}" style='width: 60%;left: 20%;'>--}}
-        {{--<h2 class='second-left-text'>想拥有一个工资突破如火箭的方法吗？</h2>--}}
+        <div class="swiper-slide main">
+        <div class="top-image-box">
+        <img src="{{URL::asset('img/bg-header.png')}}" class="bg-header animated pulse">
+        <img src="{{URL::asset('img/want-you.png')}}" class="want-you animated rotateInDownLeft">
+        <img src="{{URL::asset('img/join-us.png')}}" class="join-us animated rotateInUpRight">
+        <img src="{{URL::asset('img/index-girls.png')}}" alt="" class='index-girls animated fadeInUp'>
+        <img src="{{URL::asset('img/mk.png')}}" alt="" class='index-mk animated-3s flipInX'>
+        </div>
+        </div>
+        <div class="swiper-slide">
+        <div class='has-border'>
+        <img src="{{URL::asset('img/top-girls.png')}}" style='width: 60%;left: 20%;'>
+        <h2 class='second-left-text'>想拥有一个工资突破如火箭的方法吗？</h2>
 
-        {{--<img src="{{URL::asset('img/we-have.png')}}" alt="" style='width: 80%;'>--}}
-        {{--<div class='second-footer-box'>--}}
-        {{--<img src="{{URL::asset('img/roket.png')}}"--}}
-        {{--style='width: 50px;float: left;margin-left: 30px;margin-top: 10px;'>--}}
+        <img src="{{URL::asset('img/we-have.png')}}" alt="" style='width: 80%;'>
+        <div class='second-footer-box'>
+        <img src="{{URL::asset('img/roket.png')}}"
+        style='width: 50px;float: left;margin-left: 30px;margin-top: 10px;'>
 
-        {{--<div class='second-right-text'>无需你多才多艺</div>--}}
-        {{--<div class='second-right-text'>只要你热爱销售行业</div>--}}
-        {{--</div>--}}
+        <div class='second-right-text'>无需你多才多艺</div>
+        <div class='second-right-text'>只要你热爱销售行业</div>
+        </div>
 
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="swiper-slide trird-box" style='background: #FED732'>--}}
-        {{--<div class='has-border'>--}}
-        {{--<img src="{{URL::asset('img/what-we-need.png')}}" style='width: 60%;left: 20%;margin-top: 5%;'>--}}
-        {{--<div class='job-name'>导购</div>--}}
-        {{--<p>平均工资4000-5000--}}
-        {{--<small>(只限女同胞)</small>--}}
-        {{--</p>--}}
-        {{--<div class='job-name'>店助</div>--}}
-        {{--<p>平均工资5000-6000--}}
-        {{--<small>(只限女同胞)</small>--}}
-        {{--</p>--}}
-        {{--<div class='job-name'>店长</div>--}}
-        {{--<p>平均工资7000-8000--}}
-        {{--<small>(只限女同胞)</small>--}}
-        {{--</p>--}}
-        {{--<div class='job-name'>督导</div>--}}
-        {{--<p>平均工资8000-12000--}}
-        {{--<small>(只限女同胞)</small>--}}
-        {{--</p>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="swiper-slide">--}}
-        {{--<img src="{{URL::asset('img/fuli.png')}}" style='width: 80%;position: absolute;top: 10%;left: 10%;'>--}}
-        {{--<h1>test</h1>--}}
-        {{--</div>--}}
+        </div>
+        </div>
+        <div class="swiper-slide">
+            <div class='has-border col-xs-12' >
+                <img src="{{URL::asset('img/top-girls.png')}}" style='width: 60%;left: 20%;'>
+                <div class="col-xs-12" style="margin-bottom: 5px;color: white;font-size: 22px">广州市摩静高服饰有限公司</div>
+                <div class="col-xs-12" style="color: white;font-size: 16px;text-align: left;">&nbsp;&nbsp;本公司是集资讯、设计、研发、生产、销售服务为一体化的时尚少淑女服饰品牌公司，旗下核心品牌MOKIN-摩静。公司以市场为导向，时刻关注时尚流行动态，推出新品的速度和款式都深受年轻人的喜爱。在品牌经营上以市场需求为核心，品质为基石，文化为导向，服务为支撑，作为品牌发展的根本。在求同存异快速发展的同时，用心倾听客户的心声，给予物超所值的亲身体验。
+                    摩静人将同心同德、勤奋务实，为打造中国“时尚、快捷、高性价比”的少淑女服饰一流品牌而努力！
+                </div>
+                <em class="col-xs-12" style="color: white;font-size: 18px;text-align: left;margin-top: 15px;">
+                    企业文化：阳光、本分、笃行、创新<br/>
+                    企业使命：为广大女性提供高性价比的时尚产品与服务，成为受人尊重的 一流企业<br/>
+                    企业人才观：“道”“德”“术”三位一体</em>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide trird-box has-border" style="display: flex;flex-direction: column;align-items: center;background: #FED732">
+            <div class="container">
+                <div class='has-border' >
+                    <img src="{{URL::asset('img/what-we-need.png')}}" style='width: 60%;left: 20%;margin:0 0 50px 0;'>
+                    <div class='job-name'>导购</div>
+                    <p>平均工资4000-5000
+                        <small>(只限女同胞)</small>
+                    </p>
+                    <div class='job-name'>店助</div>
+                    <p>平均工资5000-6000
+                        <small>(只限女同胞)</small>
+                    </p>
+                    <div class='job-name'>店长</div>
+                    <p>平均工资7000-8000
+                        <small>(只限女同胞)</small>
+                    </p>
+                    <div class='job-name'>督导</div>
+                    <p>平均工资8000-12000
+                        <small>(只限女同胞)</small>
+                    </p>
+                    <p class="col-xs-12" style="color: red;font-size: 28px;font-weight: bold">只要你有能力，薪资不封顶！！！
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-slide">
+            <div class="container fuli-box" style="height: 100%">
+                <div class="col-xs-12">
+                    <img src="{{URL::asset('img/fuli.png')}}" style='margin: 10% 0 10% 0;width: 100%'>
+
+                </div>
+                <div class="col-xs-12" style="border: 10px  solid white;border-radius: 5px;padding-top: 50px;height: 70%">
+                      <li class=left>福利待遇</li>
+                      <li>生日会</li>
+                      <li>带薪年假</li>
+                      <li>舒适办公环境</li>
+                      <li>员工内购</li>
+                      <li>高颜值的同事</li>
+                      <li>保险</li>
+                      <li>专属培训</li>
+                      <li>节日补贴</li>
+                      <li>工资上不封顶</li>
+                      <li>婚假</li>
+                      <li>....</li>
+                </div>
+            </div>
+
+
+        </div>
         <div class="swiper-slide mail">
             <div class="top-image-box col-sm-12">
                 <img src="{{URL::asset('img/bg-header.png')}}" class="bg-header animated pulse">
@@ -127,7 +167,7 @@
 
     </div>
 </div>
-<div class="maka-Arrow" style="display: block;">
+<div class="maka-Arrow col-xs-12" style="display: block;">
     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAkCAMAAADip6m2AAAAolBMVEUAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAHBwcAAAD////9/f37+/vt7e25ubn39/cKCgrz8/Pe3t7c3Nz+/v729vbW1tZra2tKSkoAAABpaWlgYGD9/f38/Pz5+fn5+fn39/fz8/Px8fHu7u7q6urm5ubj4+Pd3d3y8vLX19fJycnAwMC4uLisrKyhoaGVlZWGhoajo6MpKSkxMTGAgID///9oDYyzAAAANXRSTlMAAwcLFR0SGRAO+efJbSOcIqBDQvLNbTEpGxEQ9e3h29XDvLOsnJOJiIFpYVlNRkE7MiwfDLl52bwAAAGFSURBVEjH3ZXZboMwFERbHAMhC6EFQtrs+777/3+t98bGjmwqy32plHmLPYfMiYTy9nJ5F/kb693j+O4h7Y567SZjzbYHuDv72WCQxgfSjixpReyRqEWAdmK/YyaTfAHtpivjIo6TUReTZYxxcZzupju/XufP4g660aYD2USmuF13sKeP7Ae6uF13fKZBDRLQ81gTt+rOCmD9MPSBLmaauEV3hWidQOqIr57FLbrpDllCPAghSO9SU7xad3QCNiRQgwAeAn0a6eLVutOC4mRk+SCcToupIW7qsmWnByw25B3Svc6SaeKGbn9LA8UqGsW3fVMc2VJ3eJS6apcUPw5LcVmAq1J30qWBL1mN9gPanZTiUBE3pe5C6cpo4gtRjXkJjtf8cbnSlTHEcz5yTTwBh00UOVToVogfGvibhQq+pCyr0q0Wz1h6kTDsyZObPvn36bckh6qA8YE1eIUEa6GxyyeKEzhC1MLy6byL3yNP4BNn7TSWVRffHYHaI7qq7PB3qMr/mh8s20b2bOZlXQAAAABJRU5ErkJggg=="
          alt="">
 </div>

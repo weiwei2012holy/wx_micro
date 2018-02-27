@@ -87,12 +87,10 @@
     }
     .maka-Arrow {
     position: absolute;
-    bottom: 20px;
-    left: 50%;
-    margin-left: -20px;
+        display: inline-block;
+    bottom: 50px;
+        text-align: center;
     width: 40px;
-    text-align: center;
-    display: none;
     z-index: 1999;
     animation-name: arrowing;
     -webkit-animation-name: arrowing;
@@ -176,4 +174,8 @@ to{
     font-size: 28px;
     color: green;
     font-weight: bold;
+}
+.fuli-box li{
+    color: white;
+    padding: 2px 0 2px 0;
 }
