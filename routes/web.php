@@ -15,7 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::any('/hr', function () {
-    return view('hr');
-});
-Route::any('/hr/save', 'Common\HrController@save');
+Route::any('/hr', 'Common\HrController@index');
+Route::any('area/{id}', 'Common\HrController@getArea');

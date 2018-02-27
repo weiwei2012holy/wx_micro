@@ -14,56 +14,56 @@
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide main">
-            <div class="top-image-box">
-                <img src="{{URL::asset('img/bg-header.png')}}" class="bg-header animated pulse">
-                <img src="{{URL::asset('img/want-you.png')}}" class="want-you animated rotateInDownLeft">
-                <img src="{{URL::asset('img/join-us.png')}}" class="join-us animated rotateInUpRight">
-                <img src="{{URL::asset('img/index-girls.png')}}" alt="" class='index-girls animated fadeInUp'>
-                <img src="{{URL::asset('img/mk.png')}}" alt="" class='index-mk animated-3s flipInX'>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <div class='has-border'>
-                <img src="{{URL::asset('img/top-girls.png')}}" style='width: 60%;left: 20%;'>
-                <h2 class='second-left-text'>想拥有一个工资突破如火箭的方法吗？</h2>
+        {{--<div class="swiper-slide main">--}}
+        {{--<div class="top-image-box">--}}
+        {{--<img src="{{URL::asset('img/bg-header.png')}}" class="bg-header animated pulse">--}}
+        {{--<img src="{{URL::asset('img/want-you.png')}}" class="want-you animated rotateInDownLeft">--}}
+        {{--<img src="{{URL::asset('img/join-us.png')}}" class="join-us animated rotateInUpRight">--}}
+        {{--<img src="{{URL::asset('img/index-girls.png')}}" alt="" class='index-girls animated fadeInUp'>--}}
+        {{--<img src="{{URL::asset('img/mk.png')}}" alt="" class='index-mk animated-3s flipInX'>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="swiper-slide">--}}
+        {{--<div class='has-border'>--}}
+        {{--<img src="{{URL::asset('img/top-girls.png')}}" style='width: 60%;left: 20%;'>--}}
+        {{--<h2 class='second-left-text'>想拥有一个工资突破如火箭的方法吗？</h2>--}}
 
-                <img src="{{URL::asset('img/we-have.png')}}" alt="" style='width: 80%;'>
-                <div class='second-footer-box'>
-                    <img src="{{URL::asset('img/roket.png')}}"
-                         style='width: 50px;float: left;margin-left: 30px;margin-top: 10px;'>
+        {{--<img src="{{URL::asset('img/we-have.png')}}" alt="" style='width: 80%;'>--}}
+        {{--<div class='second-footer-box'>--}}
+        {{--<img src="{{URL::asset('img/roket.png')}}"--}}
+        {{--style='width: 50px;float: left;margin-left: 30px;margin-top: 10px;'>--}}
 
-                    <div class='second-right-text'>无需你多才多艺</div>
-                    <div class='second-right-text'>只要你热爱销售行业</div>
-                </div>
+        {{--<div class='second-right-text'>无需你多才多艺</div>--}}
+        {{--<div class='second-right-text'>只要你热爱销售行业</div>--}}
+        {{--</div>--}}
 
-            </div>
-        </div>
-        <div class="swiper-slide trird-box" style='background: #FED732'>
-            <div class='has-border'>
-                <img src="{{URL::asset('img/what-we-need.png')}}" style='width: 60%;left: 20%;margin-top: 5%;'>
-                <div class='job-name'>导购</div>
-                <p>平均工资4000-5000
-                    <small>(只限女同胞)</small>
-                </p>
-                <div class='job-name'>店助</div>
-                <p>平均工资5000-6000
-                    <small>(只限女同胞)</small>
-                </p>
-                <div class='job-name'>店长</div>
-                <p>平均工资7000-8000
-                    <small>(只限女同胞)</small>
-                </p>
-                <div class='job-name'>督导</div>
-                <p>平均工资8000-12000
-                    <small>(只限女同胞)</small>
-                </p>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="{{URL::asset('img/fuli.png')}}" style='width: 80%;position: absolute;top: 10%;left: 10%;'>
-            <h1>test</h1>
-        </div>
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="swiper-slide trird-box" style='background: #FED732'>--}}
+        {{--<div class='has-border'>--}}
+        {{--<img src="{{URL::asset('img/what-we-need.png')}}" style='width: 60%;left: 20%;margin-top: 5%;'>--}}
+        {{--<div class='job-name'>导购</div>--}}
+        {{--<p>平均工资4000-5000--}}
+        {{--<small>(只限女同胞)</small>--}}
+        {{--</p>--}}
+        {{--<div class='job-name'>店助</div>--}}
+        {{--<p>平均工资5000-6000--}}
+        {{--<small>(只限女同胞)</small>--}}
+        {{--</p>--}}
+        {{--<div class='job-name'>店长</div>--}}
+        {{--<p>平均工资7000-8000--}}
+        {{--<small>(只限女同胞)</small>--}}
+        {{--</p>--}}
+        {{--<div class='job-name'>督导</div>--}}
+        {{--<p>平均工资8000-12000--}}
+        {{--<small>(只限女同胞)</small>--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="swiper-slide">--}}
+        {{--<img src="{{URL::asset('img/fuli.png')}}" style='width: 80%;position: absolute;top: 10%;left: 10%;'>--}}
+        {{--<h1>test</h1>--}}
+        {{--</div>--}}
         <div class="swiper-slide mail">
             <div class="top-image-box col-sm-12">
                 <img src="{{URL::asset('img/bg-header.png')}}" class="bg-header animated pulse">
@@ -71,9 +71,9 @@
                 <img src="{{URL::asset('img/join-us.png')}}" class="join-us animated rotateInUpRight">
                 <img src="{{URL::asset('img/mk.png')}}" alt="" class='index-mk animated-3s flipInX'>
                 <div style="margin-top: 10px;">
-                    <form action="" role="form">
+                    <form action="{{url('hr')}}" role="form" method="post" id="job-form">
                         <div class="form-group">
-                            <input type="text" class="form-control"  placeholder="请输入姓名">
+                            <input type="text" class="form-control" name="name" placeholder="请输入姓名">
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="请输入手机号码" name="mobile">
@@ -90,37 +90,32 @@
                         </div>
                         <div class="form-group row">
                             <div class="col-xs-4">
-                                <select name="job" class="form-control">
-                                    <option value="">省</option>
-                                    <option value="导购">导购</option>
-                                    <option value="店长">店长</option>
-                                    <option value="督导">督导</option>
-                                    <option value="店助">店助</option>
+                                <select name="province" class="form-control" id="province">
+                                    <option value="">--省--</option>
+                                    @foreach($province as $p)
+                                        <option value="{{$p->id}}">{{$p->short_name}}</option>
+                                    @endforeach
                                 </select>
                             </div>
-              <div class="col-xs-4">
-                                <select name="job" class="form-control">
-                                    <option value="">市</option>
-                                    <option value="导购">导购</option>
-                                    <option value="店长">店长</option>
-                                    <option value="督导">督导</option>
-                                    <option value="店助">店助</option>
+                            <div class="col-xs-4">
+                                <select name="city" class="form-control" id="city">
+                                    <option value="">--市--</option>
+
                                 </select>
                             </div>
-              <div class="col-xs-4">
-                                <select name="job" class="form-control">
-                                    <option value="">区</option>
-                                    <option value="导购">导购</option>
-                                    <option value="店长">店长</option>
-                                    <option value="督导">督导</option>
-                                    <option value="店助">店助</option>
+                            <div class="col-xs-4">
+                                <select name="town" class="form-control" id="town">
+                                    <option value="">--区--</option>
+
                                 </select>
                             </div>
 
                         </div>
 
+
                         <div class="form-group">
-                            <input type="submit" value="加我我们" class="btn btn-warning btn-block">
+                            {!!csrf_field()!!}
+                            <input type="button" id="save" value="加我我们" class="btn btn-warning btn-block">
                         </div>
 
 
@@ -151,5 +146,66 @@
             clickable: true,
         },
     });
+    var area_url = "{{url('area')}}";
+    $('#province').change(function (e) {
+        var province = $(this).children('option:selected').val();
+
+        $('#city').html('<option value="">--市--</option>');
+        $('#town').html('<option value="">--区--</option>');
+        if (!province) {
+            return;
+        }
+        $.ajax({
+            url: area_url + '/' + province,
+            type: 'get',
+            dataType: 'json',
+        }).done(function (data) {
+            var html = '';
+            var area = data.area;
+            for (var i in area) {
+                html += '<option value="' + area[i].id + '">' + area[i].short_name + "</option>";
+            }
+            $('#city').append(html);
+        })
+    })
+
+    $('#city').on('change', function (e) {
+        var city = $(this).children('option:selected').val();
+        $('#town').empty().html('<option value="">--区--</option>');
+        if (!city) {
+            return;
+        }
+        $.ajax({
+            url: area_url + '/' + city,
+            type: 'get',
+            dataType: 'json',
+        }).done(function (data) {
+            var html = '';
+            var area = data.area;
+            for (var i in area) {
+                html += '<option value="' + area[i].id + '">' + area[i].short_name + "</option>";
+            }
+            $('#town').append(html);
+        })
+
+    })
+    $('#save').click(function () {
+        var data = $('#job-form').serializeArray();
+        var url = "{{url('hr')}}";
+        var token = "{{csrf_token()}}";
+        $.ajax({
+            url: url,
+            type: 'post',
+            dataType: 'json',
+            data: {data: data, _token: token}
+        }).done(function (data) {
+            alert(data.msg)
+            if(data.ok === 1){
+                document.location.reload();
+            }
+
+        })
+    })
+
 </script>
 </html>
