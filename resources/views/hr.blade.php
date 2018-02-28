@@ -43,7 +43,7 @@
             <div class='has-border col-xs-12' >
                 <img src="{{URL::asset('img/top-girls.png')}}" style='width: 60%;left: 20%;'>
                 <div class="col-xs-12" style="margin-bottom: 5px;color: white;font-size: 22px">广州市摩静高服饰有限公司</div>
-                <div class="col-xs-12" style="color: white;font-size: 16px;text-align: left;">&nbsp;&nbsp;本公司是集资讯、设计、研发、生产、销售服务为一体化的时尚少淑女服饰品牌公司，旗下核心品牌MOKIN-摩静。公司以市场为导向，时刻关注时尚流行动态，推出新品的速度和款式都深受年轻人的喜爱。在品牌经营上以市场需求为核心，品质为基石，文化为导向，服务为支撑，作为品牌发展的根本。在求同存异快速发展的同时，用心倾听客户的心声，给予物超所值的亲身体验。
+                <div class="col-xs-12" style="color: white;font-size: 14px;text-align: left;">&nbsp;&nbsp;本公司是集设计、研发、生产、销售服务为一体的时尚少淑女服饰品牌公司，旗下核心品牌MOKIN-摩静。公司以市场为导向，时刻关注时尚流行动态，推出新品的速度和款式都深受年轻人的喜爱。在品牌经营上以市场需求为核心，品质为基石，文化为导向，服务为支撑，作为品牌发展的根本。在求同存异快速发展的同时，用心倾听客户的心声，给予物超所值的亲身体验。
                     摩静人将同心同德、勤奋务实，为打造中国“时尚、快捷、高性价比”的少淑女服饰一流品牌而努力！
                 </div>
                 <em class="col-xs-12" style="color: white;font-size: 18px;text-align: left;margin-top: 15px;">
