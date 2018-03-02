@@ -17,8 +17,11 @@ class HrController extends Controller
             $data = array_combine(array_column($data, 'name'), array_column($data, 'value'));
             unset($data['_token']);
             $data['created'] = time();
-            if (count(array_filter($data)) != count($data)){
+            if (count(array_filter($data)) != count($data)) {
                 return response()->json(['ok' => 0, 'msg' => '请完善信息~~']);
+            }
+            if (!preg_match("/^1\d{10}$/", $data['mobile'])) {
+                return response()->json(['ok' => 0, 'msg' => '请填写正确的手机号码']);
             }
             $has_one = DB::table('mokin_job')->where('mobile', $data['mobile'])->count();
             if ($has_one) {
@@ -34,8 +37,17 @@ class HrController extends Controller
             return response()->json($res);
 
         } else {
-            $data['province'] = DB::table('area')->where('level', 0)->get();
-            return view('hr', $data);
+            $province = DB::table('area')->where('level', 0)->get();
+            $main_area = ['广东','江西','湖南','安徽','海南','广西','河南','四川'];
+            $area = [];
+            foreach ($province as $k=>$v){
+                if (in_array($v->short_name,$main_area)){
+                    array_unshift($area,$v);
+                }else{
+                    $area[] = $v;
+                }
+            }
+            return view('hr', ['province'=>$area]);
         }
 
     }
