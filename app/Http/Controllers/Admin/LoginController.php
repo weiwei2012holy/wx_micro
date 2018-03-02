@@ -20,9 +20,9 @@ class LoginController extends Controller
 |
 */
 
-    use AuthenticatesUsers, AuthenticatesLogout {
-        AuthenticatesLogout::logout insteadof AuthenticatesUsers;
-    }
+//    use AuthenticatesUsers, AuthenticatesLogout {
+//        AuthenticatesLogout::logout insteadof AuthenticatesUsers;
+//    }
 
     /**
      * Where to redirect users after login.
@@ -49,5 +49,9 @@ class LoginController extends Controller
     public function login(Request $request)
     {
         return 'ok';
+    }
+
+    public function logout(Request $request)
+    {
     }
 }
