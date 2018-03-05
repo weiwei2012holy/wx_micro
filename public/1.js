@@ -344,15 +344,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       labelPosition: "right",
       formLabelAlign: {
-        name: "",
-        region: "",
-        type: ""
+        name: "user_name",
+        region: "password",
+        namePlaceholder: "请输入用户名"
       }
     };
   }
@@ -363,77 +376,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ 229:
 /***/ (function(module, exports, __webpack_require__) {
 
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { attrs: { id: "login-box" } },
-    [
-      _c(
-        "el-form",
-        {
-          attrs: {
-            "label-position": _vm.labelPosition,
-            "label-width": "80px",
-            model: _vm.formLabelAlign
-          }
-        },
-        [
-          _c(
-            "el-form-item",
-            { attrs: { label: "用户名" } },
-            [
-              _c("el-input", {
-                model: {
-                  value: _vm.formLabelAlign.name,
-                  callback: function($$v) {
-                    _vm.$set(_vm.formLabelAlign, "name", $$v)
-                  },
-                  expression: "formLabelAlign.name"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "el-form-item",
-            { attrs: { label: "密码" } },
-            [
-              _c("el-input", {
-                model: {
-                  value: _vm.formLabelAlign.region,
-                  callback: function($$v) {
-                    _vm.$set(_vm.formLabelAlign, "region", $$v)
-                  },
-                  expression: "formLabelAlign.region"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            [
-              _c("el-button", { attrs: { type: "primary" } }, [
-                _vm._v("主要按钮1")
-              ])
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
+module.exports={render:function(){},staticRenderFns:[]}
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
@@ -478,7 +421,7 @@ exports = module.exports = __webpack_require__(76)(false);
 
 
 // module
-exports.push([module.i, "\n#login-box{\n  width:300px;\n  height: auto;\n}\n", ""]);
+exports.push([module.i, "\n.login-box {\n  width: 300px;\n  height: auto;\n}\n", ""]);
 
 // exports
 
