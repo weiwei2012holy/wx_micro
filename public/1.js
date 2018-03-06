@@ -345,18 +345,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -376,7 +364,78 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ 229:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports={render:function(){},staticRenderFns:[]}
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "login-box" },
+    [
+      _c(
+        "el-form",
+        {
+          attrs: {
+            "label-position": _vm.labelPosition,
+            "label-width": "80px",
+            model: _vm.formLabelAlign
+          }
+        },
+        [
+          _c(
+            "el-form-item",
+            { attrs: { label: "用户名" } },
+            [
+              _c("el-input", {
+                attrs: { placeholder: "formLabelAlign.namePlaceholder" },
+                model: {
+                  value: _vm.formLabelAlign.name,
+                  callback: function($$v) {
+                    _vm.$set(_vm.formLabelAlign, "name", $$v)
+                  },
+                  expression: "formLabelAlign.name"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "el-form-item",
+            { attrs: { label: "密码" } },
+            [
+              _c("el-input", {
+                model: {
+                  value: _vm.formLabelAlign.region,
+                  callback: function($$v) {
+                    _vm.$set(_vm.formLabelAlign, "region", $$v)
+                  },
+                  expression: "formLabelAlign.region"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            [
+              _c("el-button", { attrs: { type: "primary" } }, [
+                _vm._v("主要按钮1")
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {

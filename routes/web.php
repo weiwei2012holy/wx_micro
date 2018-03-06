@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::any('/hr', 'Common\HrController@index');
+Route::any('/hr/results', 'Common\HrController@hrResults');
 Route::any('area/{id}', 'Common\HrController@getArea');
 
 Auth::routes();
